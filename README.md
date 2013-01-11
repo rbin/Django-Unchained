@@ -38,10 +38,10 @@ Then define your model document.
 
 **models.py**::
 
-  from django.db import models
-  from django.utils.translation import ugettext_lazy as _
-  from couchbasekit import Document
-  from couchbasekit.fields import EmailField, ChoiceField
+    from django.db import models
+    from django.utils.translation import ugettext_lazy as _
+    from couchbasekit import Document
+    couchbasekit.fields import EmailField, ChoiceField
 
 
     class Author(Document):
