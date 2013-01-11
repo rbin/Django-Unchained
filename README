@@ -6,7 +6,7 @@ Django-Backend support for Couchbase 2.0, utilising CouchbaseKit (Couchbase Pyth
 
 Because we all know, NoSQL is the future, and some of us want Non-relational data in our Django apps!
 
-Inspired by Django-nonrel, Powered by CouchbaseKit and Couchbase' Python SDK.
+Inspired by Django-nonrel, Powered by CouchbaseKit and the Couchbase Python SDK.
 
 UNFINISHED AND FAR FROM PRODUCTION READY! DO NOT USE YET!
 
