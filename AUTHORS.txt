@@ -1,0 +1,13 @@
+==== Django Unchained
+
+AUTHOR:
+Robin Johnson
+@rbin
+robin [at] couchbase.com
+
+
+
+==== CouchbaseKit
+
+AUTHOR:
+Roy Enjoy <kirpit *at* gmail.com>
