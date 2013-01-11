@@ -1,16 +1,19 @@
-==== Django Unchained!
+=================
+Django Unchained!
+=================
 
 Django-Backend support for Couchbase 2.0, utilising CouchbaseKit (Couchbase Python wrapper for Doc Validation)
 
 Because we all know, NoSQL is the future, and some of us want Non-relational data in our Django apps!
 
-Inspired by Django-nonrel, Powered by CouchbaseKit and Couchbase' Python SDK.
+Inspired by Django-nonrel, Powered by CouchbaseKit and the Couchbase Python SDK.
+
+UNFINISHED AND FAR FROM PRODUCTION READY! DO NOT USE YET!
 
 
-====== UNFINISHED AND FAR FROM PRODUCTION READY! DO NOT USE YET!
 
-
-==== Couchbase & CouchbaseKit
+Couchbase & CouchbaseKit
+========================
 
 You can get detailed information about couchbase itself from
 http://www.couchbase.com/ and about its Python driver form
@@ -19,10 +22,10 @@ http://www.couchbase.com/develop/python/next.
 Documentation: https://couchbasekit.readthedocs.org/en/latest/
 
 
+
 Quick Start
 ===========
-
-=== UNFINISHED.
+UNFINISHED.
 
 
     from couchbasekit import Connection
@@ -35,8 +38,8 @@ Then define your model document.
 
 **models.py**::
 
-	from django.db import models
-	from django.utils.translation import ugettext_lazy as _
+  from django.db import models
+  from django.utils.translation import ugettext_lazy as _
   from couchbasekit import Document
   from couchbasekit.fields import EmailField, ChoiceField
 
